@@ -7,18 +7,17 @@ To have a following `Brewfile` possibility:
 
 ```
 tap 'pr0d1r2/legacy'
-brew 'elasticsearch@5.6', args: ['build-from-source']
+brew 'elasticsearch@5.6'
 ```
 
 ## How do I install this formula?
 
-Run `brew install pr0d1r2/legacy/elasticsearch@5.6 --build-from-source`.
+Run `brew install pr0d1r2/legacy/elasticsearch@5.6`.
 
-Or `brew tap pr0d1r2/legacy` and then `brew install elasticsearch@5.6 --build-from-source`.
+Or `brew tap pr0d1r2/legacy` and then `brew install elasticsearch@5.6`.
 
 ## Limitations
-As unsupported packages do not have bottles we need to install from
-source. This has been tested on macOS 10.13 so far.
+This has been tested on macOS 10.13 so far.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
